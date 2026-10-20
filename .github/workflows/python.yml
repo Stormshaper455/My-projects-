@@ -1,0 +1,31 @@
+name: Python project checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'python-sql-staff-manager/**'
+      - '.github/workflows/python.yml'
+  pull_request:
+    paths:
+      - 'python-sql-staff-manager/**'
+      - '.github/workflows/python.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.13']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run integration checks
+        working-directory: python-sql-staff-manager
+        run: python -m unittest discover -s tests -v

@@ -1,45 +1,65 @@
 <div align="center">
 
-# 🚀 My Projects
+# Joshua Wilson · Project Portfolio
 
-### A growing collection of experiments, coursework, and personal builds
+**Python, SQL, Java, and cloud APIs — through practical projects.**
 
-![GitHub](https://img.shields.io/badge/GitHub-Projects-181717?logo=github)
-![Learning](https://img.shields.io/badge/Focus-Building%20%26%20Learning-2ea44f)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](python-sql-staff-manager/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](python-sql-staff-manager/schema.sql)
+[![Project checks](https://github.com/Stormshaper455/My-projects-/actions/workflows/python.yml/badge.svg)](https://github.com/Stormshaper455/My-projects-/actions/workflows/python.yml)
+
+[Explore the project](python-sql-staff-manager/) · [View the code](python-sql-staff-manager/staffing_app.py) · [GitHub profile](https://github.com/Stormshaper455)
 
 </div>
+
+## Featured project: Staff Manager
+
+A terminal application for managing employee records with **Python and SQLite**. It connects a menu interface to a relational database and implements the complete create, read, update, and delete workflow.
+
+| What it does | How it works |
+| --- | --- |
+| Add employees | Stores names, positions, emails, and hourly rates |
+| Browse and search | Lists employees or finds an exact last-name match |
+| Update records | Changes an employee's position and hourly rate by ID |
+| Delete records | Removes an employee by ID |
+| Keep data between runs | Saves changes in a local SQLite database |
+
+**Run it in three commands** — Python 3, no third-party packages:
+
+```bash
+git clone https://github.com/Stormshaper455/My-projects-.git
+cd My-projects-/python-sql-staff-manager
+python3 staffing_app.py
+```
+
+On Windows, use `py` instead of `python3` if needed. The database and table are created automatically on the first run.
+
+**[Project guide →](python-sql-staff-manager/README.md)** includes a sample session, schema, SQL examples, and test instructions.
+
+## Explore this repository
+
+| Project | What to review | Status |
+| --- | --- | --- |
+| [Staff Manager](python-sql-staff-manager/) | Python + SQLite CRUD application, schema, demo, and integration checks | Runnable locally |
+| [Cloud Notes API](https://github.com/Stormshaper455/My-projects-/tree/JSON) | JavaScript AWS Lambda handlers using JWT identity and DynamoDB | Backend source samples on the JSON branch |
+
+```text
+python-sql-staff-manager/
+├── staffing_app.py     # Interactive Python application
+├── schema.sql          # Employee table definition
+├── queries.sql         # SQL examples using fictional data
+├── docs/demo.md        # Walkthrough of the terminal workflow
+└── tests/              # Automated integration checks
+```
+
+The cloud notes source remains on the **[JSON branch](https://github.com/Stormshaper455/My-projects-/tree/JSON)**. The project table above links directly to it.
+
+## More of my work
+
+- **[Java coursework](https://github.com/Stormshaper455/School)** — data structures, object-oriented programming, and desktop application exercises.
+- **[Java fundamentals](https://github.com/Stormshaper455/MyWork)** — calculators and small programs for practicing programming basics.
+- **[Project Nexus](https://github.com/Stormshaper455/Project-Nexus)** — an early music application concept.
 
 ---
 
-## 👋 About This Repository
-
-This repository is a home for code I have written while learning, experimenting, and building projects.
-
-I use separate branches to keep different types of work organized instead of placing everything in one large folder.
-
-## 🧭 How to Explore
-
-1. Use the **branch selector** near the top of the repository.
-2. Choose a branch to view that project or category of code.
-3. Open the files to explore the implementation.
-
-### Current branches
-
-- **`main`** — repository overview and navigation
-- **`JSON`** — JSON-related work and experiments
-
-## 🎯 What I'm Working Toward
-
-I'm continuing to build projects across software development, cloud technology, web development, AI, and interactive applications while improving the quality and organization of my GitHub portfolio.
-
----
-
-<div align="center">
-
-### 👨‍💻 Joshua Wilson
-
-[View my GitHub profile](https://github.com/Stormshaper455)
-
-*Build. Learn. Improve. Repeat.*
-
-</div>
+Built by **[Joshua Wilson](https://github.com/Stormshaper455)**. Learning by building, testing, and improving.
