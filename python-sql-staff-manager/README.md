@@ -74,6 +74,13 @@ Then run:
 
 The examples insert a fictional employee, read and update the record, then delete it. They run in a transaction that is rolled back at the end.
 
+## Design notes
+
+- **SQLite and the standard library:** the application runs without a separate database server or package installation, making the full workflow easy to try locally.
+- **Parameterized queries:** employee values are passed separately from SQL statements, including names containing apostrophes.
+- **Database constraints:** the primary key identifies each record, while a unique email constraint prevents duplicate email addresses.
+- **Simple data model:** a single employee table keeps the example approachable. Hourly rates use SQLite `REAL`; a payroll system would need a deliberate currency representation, such as integer cents.
+
 ## Checks
 
 From this project directory:
