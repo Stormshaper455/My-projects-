@@ -2,7 +2,7 @@
 
 # Joshua Wilson · Project Portfolio
 
-**Python, SQL, Java, and cloud APIs — through practical projects.**
+**Python, SQL, and cloud APIs — through practical projects.**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](python-sql-staff-manager/)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)](python-sql-staff-manager/schema.sql)
@@ -40,8 +40,8 @@ On Windows, use `py` instead of `python3` if needed. The database and table are 
 
 | Project | What to review | Status |
 | --- | --- | --- |
-| [Staff Manager](python-sql-staff-manager/) | Python + SQLite CRUD application, schema, demo, and integration checks | Runnable locally |
-| [Cloud Notes API](https://github.com/Stormshaper455/My-projects-/tree/JSON) | JavaScript AWS Lambda handlers using JWT identity and DynamoDB | Backend source samples on the JSON branch |
+| [Staff Manager](https://github.com/Stormshaper455/python-sql-staff-manager) | Python + SQLite CRUD application, schema, demo, and integration checks | Runnable locally |
+| [Cloud Notes API](https://github.com/Stormshaper455/aws-notes-api) | JavaScript AWS Lambda handlers using JWT identity and DynamoDB | Dedicated cloud repository |
 
 ```text
 python-sql-staff-manager/
@@ -54,11 +54,12 @@ python-sql-staff-manager/
 
 The cloud notes source remains on the **[JSON branch](https://github.com/Stormshaper455/My-projects-/tree/JSON)**. The project table above links directly to it.
 
-## More of my work
+## Dedicated project repositories
 
-- **[Java coursework](https://github.com/Stormshaper455/School)** — data structures, object-oriented programming, and desktop application exercises.
-- **[Java fundamentals](https://github.com/Stormshaper455/MyWork)** — calculators and small programs for practicing programming basics.
-- **[Project Nexus](https://github.com/Stormshaper455/Project-Nexus)** — an early music application concept.
+- **[Python + SQL Staff Manager](https://github.com/Stormshaper455/python-sql-staff-manager)** — the standalone application, SQL schema, demo, and integration checks.
+- **[AWS Cloud Notes API](https://github.com/Stormshaper455/aws-notes-api)** — Lambda handler source, an architecture diagram, configuration requirements, and JavaScript syntax checks.
+
+The Staff Manager copy in this collection remains available at its original path. The dedicated repositories are the main project entry points on my profile.
 
 ---
 
